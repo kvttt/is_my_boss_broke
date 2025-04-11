@@ -14,7 +14,7 @@ You need to know your supervisor's first name, last name, and institution (as it
 
 You can run the script with the following command:
 
-```bash
+```
 usage: python reporter.py [-h] --first FIRST --last LAST --institutions INSTITUTIONS [--offset OFFSET] [--limit LIMIT]
 
 Search NIH RePORTER for projects with specified principal investigator and institution criteria.
@@ -34,7 +34,7 @@ options:
 
 For example, if your supervisor's name is Sakiko Togawa, you would run:
 
-```bash
+```
 python reporter.py -f Sakiko -l Togawa -i "HANEOKA GIRLS' HIGH SCHOOL, TSUKINOMORI GIRLS' ACADEMY"
 ```
 
